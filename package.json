@@ -1,0 +1,35 @@
+{
+  "name": "hover-seconds-do",
+  "version": "0.0.1",
+  "description": "Perform an action after an element has hovered for a few seconds",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "example": "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vortesnail/hover-seconds-do.git"
+  },
+  "keywords": [
+    "hover",
+    "hover-seconds-do"
+  ],
+  "author": "vortesnail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vortesnail/hover-seconds-do/issues"
+  },
+  "homepage": "https://github.com/vortesnail/hover-seconds-do#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0"
+  }
+}

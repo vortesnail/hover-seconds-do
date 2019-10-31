@@ -4,7 +4,7 @@
 在某些场景，我们希望鼠标移到某个元素上，悬停几秒后能执行一些操作，但是鼠标稍微移动一下，时间重置，状态回退如初。在鼠标离开当前绑定的元素时，我们的页面回退如初。这个工具函数一定能帮到你。
 
 ## 例子
-播放器一个很重要的功能：**鼠标悬停在视频播放界面时，在一定时间后鼠标会消失，视频下方的控制栏也会隐藏，呈现视频的最大可视化。但是鼠标稍微一动，一切恢复如初。**用一张简单的 gif 图来说明的话，是下面这样子的：![gif.gif](https://cdn.nlark.com/yuque/0/2019/gif/341314/1572492255580-7fb62a64-4c65-462a-8528-b9bd7d9ca811.gif#align=left&display=inline&height=424&name=gif.gif&originHeight=424&originWidth=824&search=&size=615788&status=done&width=824)
+播放器一个很重要的功能：**鼠标悬停在视频播放界面时，在一定时间后鼠标会消失，视频下方的控制栏也会隐藏，呈现视频的最大可视化。但是鼠标稍微一动，一切恢复如初。**用一张简单的 gif 图来说明的话，是下面这样子的：![屏幕录制-2019-10-31-11.18.41 (1).gif](https://cdn.nlark.com/yuque/0/2019/gif/341314/1572511989609-54aa916e-5f8a-4946-8d5d-2e6ab60d5525.gif#align=left&display=inline&height=424&name=%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6-2019-10-31-11.18.41%20%281%29.gif&originHeight=424&originWidth=824&search=&size=255955&status=done&width=824)
 
 ## 快速使用
 ### 安装

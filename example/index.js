@@ -10,5 +10,5 @@ function showTestBox() {
   textBox.style.display = 'block';
 }
 
-let eleBe = new window.hoversd();
-eleBe.secondsHoverEX(box, hiddenTestBox, 2000, showTestBox);
+let hoversd = new window.HoverSD();
+hoversd.secondsHoverEX(box, hiddenTestBox, 2000, showTestBox);

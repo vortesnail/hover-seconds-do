@@ -1,11 +1,11 @@
-function hoversd() {
+function HoverSD() {
   var timeout;
 
   const rebuildTimer = function(secondsLaterDoFn, seconds, reNormalFn) {
     return function() {
-      reNormalFn();
       var context = this;
       var args = arguments;
+      reNormalFn.apply(context, args);
       clearTimeout(timeout);
       timeout = setTimeout(() => {
         secondsLaterDoFn.apply(context, args);
@@ -28,4 +28,4 @@ function hoversd() {
   }
 }
 
-window.hoversd = hoversd;
+window.HoverSD = HoverSD;

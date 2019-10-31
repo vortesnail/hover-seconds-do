@@ -1,6 +1,6 @@
 {
   "name": "hover-seconds-do",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Perform an action after an element has hovered for a few seconds",
   "main": "dist/index_bundle.js",
   "scripts": {

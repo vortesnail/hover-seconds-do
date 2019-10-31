@@ -26,7 +26,7 @@ hoversd.secondsHoverEX();
 hoversd.removeElemEventListener();
 ```
 
-### 项目运行
+## 项目运行
 在终端一步一步执行：
 ```bash
 git clone git@github.com:vortesnail/hover-seconds-do.git
@@ -35,7 +35,7 @@ npm run example
 ```
 即可查看样例
 
-### 示例代码
+## 示例代码
 我们拿上面的 gif 做例子：
 
 **index.html**

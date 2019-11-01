@@ -1,22 +1,25 @@
 # hover-seconds-do
+[中文](https://github.com/vortesnail/hover-seconds-do/blob/master/README-zh-Hans.md)
 
 ## 介绍
-在某些场景，我们希望鼠标移到某个元素上，悬停几秒后能执行一些操作，但是鼠标稍微移动一下，时间重置，状态回退如初。在鼠标离开当前绑定的元素时，我们的页面回退如初。这个工具函数一定能帮到你。
+In some scenarios, we want the mouse to move to an element. After hovering for a few seconds, we can perform some operations, but the mouse moves slightly, the time is reset, and the state is back. When the mouse leaves the currently bound element, our page rolls back as it was. This tool function will definitely help you.
 
 ## 例子
-播放器一个很重要的功能：**鼠标悬停在视频播放界面时，在一定时间后鼠标会消失，视频下方的控制栏也会隐藏，呈现视频的最大可视化。但是鼠标稍微一动，一切恢复如初。**用一张简单的 gif 图来说明的话，是下面这样子的：![屏幕录制-2019-10-31-11.18.41 (1).gif](https://cdn.nlark.com/yuque/0/2019/gif/341314/1572511989609-54aa916e-5f8a-4946-8d5d-2e6ab60d5525.gif#align=left&display=inline&height=424&name=%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6-2019-10-31-11.18.41%20%281%29.gif&originHeight=424&originWidth=824&search=&size=255955&status=done&width=824)
+A very important function of the video player: **When the mouse hovers over the video playback interface, the mouse will disappear after a certain time, and the control bar below the video will also be hidden, showing the maximum visualization of the video. But the mouse moved a little and everything recovered as it was**. Using a simple gif diagram to illustrate, it is like this: ![demo.gif](https://cdn.nlark.com/yuque/0/2019/gif/341314/1572511989609-54aa916e-5f8a-4946-8d5d-2e6ab60d5525.gif#align=left&display=inline&height=424&name=%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6-2019-10-31-11.18.41%20%281%29.gif&originHeight=424&originWidth=824&search=&size=255955&status=done&width=824)
 
-## 快速使用
-### 安装
+## Quick start
+### Install
 ```bash
 npm install --save hover-seconds-do
 ```
 
-### 使用
-- element: 你所希望操作的元素（比如上面 gif 中 “我是视频”这个 div 元素）
-- secondsLaterDoFn: 你设定的时间之后，想做什么操作（比如上面 gif 中“鼠标消失，控制栏消失”）
-- seconds: 你希望的时间，单位: ms（比如上面 gif 中我设定的时间为 2000ms）
-- reNormalFn: 回归原样的操作（比如上面 gif 中控制栏和鼠标都回来）
+### Usage
+- element: The element you want to manipulate (such as the div element "I am a video" in the GIF above)
+- secondsLaterDoFn: What do you want to do after the time you set (such as "The mouse disappears, the control bar disappears" in the GIF above)
+- seconds: The time you want, the unit: ms (such as the time I set in the GIF above is 2000ms)
+- reNormalFn: Return to the original operation (such as the control bar and mouse in the GIF above)
+
+**Note: html references need to be downloaded `dist/index_bundle.js` manually introduced, in React you should manually `import 'hover-seconds-do'` ;**
 ```js
 const hoversd = new window.HoverSD(element, secondsLaterDoFn, seconds, reNormalFn);
 hoversd.secondsHoverEX();
@@ -26,17 +29,21 @@ hoversd.secondsHoverEX();
 hoversd.removeElemEventListener();
 ```
 
-## 项目运行
-在终端一步一步执行：
+## Project operation
+Step by step in the terminal：
 ```bash
 git clone git@github.com:vortesnail/hover-seconds-do.git
+```
+In the clone file terminal
+```bash
 npm install -g http-server
 npm run example
 ```
-即可查看样例
 
-## 示例代码
-我们拿上面的 gif 做例子：
+Browser window open `http://localhost:8880/example/index.html` then you can view the sample
+
+## Sample code
+Let's take the above GIF as an example.：
 
 **index.html**
 ```html

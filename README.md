@@ -1,10 +1,10 @@
 # hover-seconds-do
 [中文](https://github.com/vortesnail/hover-seconds-do/blob/master/README-zh-Hans.md)
 
-## 介绍
+## Introduction
 In some scenarios, we want the mouse to move to an element. After hovering for a few seconds, we can perform some operations, but the mouse moves slightly, the time is reset, and the state is back. When the mouse leaves the currently bound element, our page rolls back as it was. This tool function will definitely help you.
 
-## 例子
+## Example
 A very important function of the video player: **When the mouse hovers over the video playback interface, the mouse will disappear after a certain time, and the control bar below the video will also be hidden, showing the maximum visualization of the video. But the mouse moved a little and everything recovered as it was**. Using a simple gif diagram to illustrate, it is like this: ![demo.gif](https://cdn.nlark.com/yuque/0/2019/gif/341314/1572511989609-54aa916e-5f8a-4946-8d5d-2e6ab60d5525.gif#align=left&display=inline&height=424&name=%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6-2019-10-31-11.18.41%20%281%29.gif&originHeight=424&originWidth=824&search=&size=255955&status=done&width=824)
 
 ## Quick start

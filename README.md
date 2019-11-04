@@ -1,5 +1,6 @@
-# hover-seconds-do
-[中文](https://github.com/vortesnail/hover-seconds-do/blob/master/README-zh-Hans.md)
+# hover-seconds-do [![Build Status](https://travis-ci.org/vortesnail/hover-seconds-do.svg?branch=master)](https://travis-ci.org/vortesnail/hover-seconds-do)
+
+[简体中文](https://github.com/vortesnail/hover-seconds-do/blob/master/README-zh-Hans.md)
 
 ## Introduction
 In some scenarios, we want the mouse to move to an element. After hovering for a few seconds, we can perform some operations, but the mouse moves slightly, the time is reset, and the state is back. When the mouse leaves the currently bound element, our page rolls back as it was. This tool function will definitely help you.

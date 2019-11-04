@@ -1,5 +1,4 @@
-# hover-seconds-do
-[英文](https://github.com/vortesnail/hover-seconds-do)
+# hover-seconds-do [![Build Status](https://travis-ci.org/vortesnail/hover-seconds-do.svg?branch=master)](https://travis-ci.org/vortesnail/hover-seconds-do)
 
 ## 介绍
 在某些场景，我们希望鼠标移到某个元素上，悬停几秒后能执行一些操作，但是鼠标稍微移动一下，时间重置，状态回退如初。在鼠标离开当前绑定的元素时，我们的页面回退如初。这个工具函数一定能帮到你。
